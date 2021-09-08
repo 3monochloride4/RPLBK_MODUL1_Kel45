@@ -16,6 +16,6 @@ const compare = () => {
     var b = document.getElementById('textbox_2').value;
     a = Number(a);
     b = Number(b);
-    document.write('Anda memasukkan input pertama adalah ' + a + ' dan input kedua adalah ' + b + '<br>');
+    document.write('Input pertama anda adalah ' + a + ' dan input kedua adalah ' + b + '<br>');
     return [a, b];
 }
